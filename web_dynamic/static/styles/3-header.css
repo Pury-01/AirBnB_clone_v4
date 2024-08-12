@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
     background: white;
     height: 70px;
@@ -8,4 +9,19 @@ header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+=======
+#api_status {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #cccccc;
+    border-radius: 50%;
+}
+
+#api_status.available {
+    background-color: #ff545f;
+>>>>>>> 221991d970ff1da15b90a25c279bc841ff0519e2
 }
